@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/DakshMiglani/VuetifyParcel/issues"
   },
-  "homepage": "https://github.com/DakshMiglani/VuetifyParcel#readme"
+  "homepage": "https://github.com/DakshMiglani/VuetifyParcel#readme",
+  "devDependencies": {
+    "vue-cli": "^2.9.2"
+  }
 }
