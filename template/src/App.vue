@@ -45,12 +45,11 @@
       </v-btn>
     </v-toolbar>
     <v-content>
-      <router-view/>
-      <!-- {{#router}}
+      {{#router}}
       <router-view/>
       {{else}}
       <HelloWorld/>
-      {{/router}} -->
+      {{/router}}
     </v-content>
     <v-navigation-drawer
       temporary
@@ -96,10 +95,10 @@ export default {
       title: 'Vuetify.js'
     }
   },
-  name: 'App'/*{{#router}}{{else}},
+  name: 'App'{{#router}}{{else}},
   components: {
     HelloWorld
   }{{/router}}
-  */
+  
 };
 </script>
