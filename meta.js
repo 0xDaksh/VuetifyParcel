@@ -44,6 +44,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    port: {
+      type: 'string',
+      message: 'Development Server Port?',
+      default: 3000
+    },
     lint: {
       type: 'confirm',
       message: 'Use ESLint to lint your code?',
