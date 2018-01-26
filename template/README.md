@@ -19,7 +19,7 @@ $ npm install
 
 ```bash
 
-yarn dev
+$ yarn dev
 
 ```
 
@@ -27,7 +27,7 @@ yarn dev
 
 ```bash
 
-yarn build
+$ yarn build
 
 ```
 
