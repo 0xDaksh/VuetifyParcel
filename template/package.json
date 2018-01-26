@@ -6,14 +6,34 @@
     "private": true,
     "scripts": {
         "dev": "parcel src/index.template.html -p 3000",
-        "build": "parcel build src/index.template.html --public-url ./"
+        "build": "parcel build src/index.template.html --public-url ./",
+        "lint": "eslint src"
     },
     "dependencies": {
         "vue": "^2.5.13",
-        "vue-router": "^3.0.1",
-        "vuetify": "^0.17.6"
+        "vuetify": "^0.17.6",
+        "vue-router": "^3.0.1"{{#router}},
+        "vue-router": "^3.0.1"{{/router}}
     },
     "devDependencies": {
+        {{#lint}}
+        "babel-eslint": "^7.1.1",
+        "eslint": "^3.19.0",
+        "eslint-friendly-formatter": "^3.0.0",
+        "eslint-loader": "^1.7.1",
+        "eslint-plugin-html": "^3.0.0",
+        {{#if_eq lintConfig "standard"}}
+        "eslint-config-standard": "^10.2.1",
+        "eslint-plugin-promise": "^3.4.0",
+        "eslint-plugin-standard": "^3.0.1",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-node": "^5.2.0",
+        {{/if_eq}}
+        {{#if_eq lintConfig "airbnb"}}
+        "eslint-config-airbnb-base": "^11.3.0",
+        "eslint-plugin-import": "^2.7.0",
+        {{/if_eq}}
+        {{/lint}}
         "babel-preset-env": "^1.6.1",
         "babel-preset-stage-2": "^6.24.1",
         "parcel-bundler": "^1.5.1",
