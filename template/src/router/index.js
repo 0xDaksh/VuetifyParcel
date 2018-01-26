@@ -5,9 +5,9 @@ import HelloWorld from '../components/HelloWorld.vue';
 Vue.use(Router);
 
 export default new Router({
-  {{ #routerHash }}
+  {{#routerHash}}
   mode: 'history',
-  {{ /routerHash }}
+  {{/routerHash}}
   routes: [
     {
       path: '/',
