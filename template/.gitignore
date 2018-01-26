@@ -10,3 +10,4 @@ test/
 yarn.lock
 .cache
 dist
+.babelrc.bak

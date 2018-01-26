@@ -6,14 +6,17 @@
     "private": true,
     "scripts": {
         "dev": "parcel src/index.template.html -p 3000",
-        "build": "parcel build src/index.template.html --public-url ./"    
+        "build": "parcel build src/index.template.html --public-url ./"
     },
     "dependencies": {
         "vue": "^2.5.13",
         "vue-router": "^3.0.1"
     },
     "devDependencies": {
-        "parcel-bundler": "^1.5.1"
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "parcel-bundler": "^1.5.1",
+        "parcel-plugin-vue": "^1.5.0"
     },
     "keywords": [
         "vuetify",
