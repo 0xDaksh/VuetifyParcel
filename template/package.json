@@ -5,8 +5,8 @@
     "main": "src/App.js",
     "private": true,
     "scripts": {
-        "dev": "parcel src/index.template.html -p {{ port }}",
-        "build": "parcel build src/index.template.html --public-url ./",
+        "dev": "parcel src/index.html -p {{ port }}",
+        "build": "parcel build src/index.html --public-url ./",
         "lint": "eslint src"
     },
     "dependencies": {
