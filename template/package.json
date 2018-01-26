@@ -1,21 +1,23 @@
 {
-    "name": "{{ name }}",
+    "name": "template",
     "version": "0.0.0",
     "description": "{{ description }}",
-    "main": "index.js",
+    "main": "src/App.js",
     "private": true,
-    "scripts": {
-    },
+    "scripts": {},
     "dependencies": {
+        "vue": "^2.5.13",
+        "vue-router": "^3.0.1"
     },
     "devDependencies": {
+        "parcel-bundler": "^1.5.1"
     },
     "keywords": [
-      "vuetify",
-      "parcel",
-      "stylus",
-      "boilerplate",
-      "template"
+        "vuetify",
+        "parcel",
+        "stylus",
+        "boilerplate",
+        "template"
     ],
     "engines": {
         "node": ">= 6.0.0",
@@ -28,5 +30,4 @@
     ],
     "author": "{{ author }}",
     "license": "MIT"
-  }
-  
+}
