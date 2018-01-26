@@ -1,5 +1,5 @@
 {
-    "name": "template",
+    "name": "{{ name }}",
     "version": "0.0.0",
     "description": "{{ description }}",
     "main": "src/App.js",
