@@ -4,7 +4,10 @@
     "description": "{{ description }}",
     "main": "src/App.js",
     "private": true,
-    "scripts": {},
+    "scripts": {
+        "dev": "parcel src/index.template.html -p 3000",
+        "build": "parcel build src/index.template.html --public-url ./"    
+    },
     "dependencies": {
         "vue": "^2.5.13",
         "vue-router": "^3.0.1"
