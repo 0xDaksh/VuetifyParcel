@@ -11,7 +11,26 @@ $ npm install -g vue-cli
 $ vue init vuetifyjs/parcel my-project
 $ cd my-project
 $ npm install 
-$ # or yarn
-$ npm run dev
-$ # or yarn dev
+
 ```
+
+
+## Starting the Dev Server
+
+```bash
+
+yarn dev
+
+```
+
+## Build
+
+```bash
+
+yarn build
+
+```
+
+## License
+
+Licensed to [Daksh Miglani](https://dak.sh) under MIT License.
