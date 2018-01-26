@@ -44,6 +44,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    routerHash: {
+      when: 'router',
+      type: 'confirm',
+      message: 'Do you want to use Router without the Hashbang / Pound (/#/) ?'
+    },
     port: {
       type: 'string',
       message: 'Development Server Port?',
