@@ -1,0 +1,4 @@
+/dist
+{{#unit}}
+/test/unit/coverage/
+{{/unit}}
