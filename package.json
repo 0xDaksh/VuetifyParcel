@@ -1,0 +1,26 @@
+{
+  "name": "vue-cli-vuetify-parcel",
+  "version": "0.0.0",
+  "description": "VuetifyJS + ParcelJS + Stylus = <3 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakshMiglani/VuetifyParcel.git"
+  },
+  "keywords": [
+    "vuetify",
+    "parcel",
+    "stylus",
+    "boilerplate",
+    "template"
+  ],
+  "author": "Daksh Miglani <hello@dak.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DakshMiglani/VuetifyParcel/issues"
+  },
+  "homepage": "https://github.com/DakshMiglani/VuetifyParcel#readme"
+}
