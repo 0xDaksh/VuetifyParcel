@@ -74,11 +74,9 @@
 </template>
 
 <script>
-/* {{#unless router}}
+{{#unless router}}
 import HelloWorld from './components/HelloWorld'
-*/
-
-// {{/unless}}
+{{/unless}}
 export default {
   data() {
     return {
