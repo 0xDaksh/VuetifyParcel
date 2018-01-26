@@ -10,6 +10,8 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 $ npm install -g vue-cli
 $ vue init vuetifyjs/parcel my-project
 $ cd my-project
-$ npm install
+$ npm install 
+$ # or yarn
 $ npm run dev
+$ # or yarn dev
 ```
