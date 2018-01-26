@@ -8,3 +8,5 @@ docs/_book
 test/
 *.swp
 yarn.lock
+.cache
+dist
